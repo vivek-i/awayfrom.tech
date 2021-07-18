@@ -105,7 +105,7 @@
                 if (!results[2]) return '';
                 return decodeURIComponent(results[2].replace(/\+/g, ' '));
             }
-            searchForResults(getParameterByName('k'), getParameterByName('state'))
+            searchForResults(getParameterByName('k').toUpperCase(), getParameterByName('state'))
             initMenu();
         </script>
     </body>
