@@ -58,7 +58,7 @@ function searchForResults(keyword, stateCode)
     var resultContainer = document.getElementById('resultsContainer')
 
     console.log("searching")
-    if(keyword.includes('camp'))
+    if(keyword.includes('CAMP'))
     {
         resultContainer.innerHTML = '';
         var xhr = new XMLHttpRequest()
@@ -105,7 +105,7 @@ function searchForResults(keyword, stateCode)
         document.getElementById('flightWidget').style.display = 'block'
         document.getElementById('center').style.display = 'block'
     }
-    else if(keyword.includes('park'))
+    else if(keyword.includes('PARK'))
     {
         resultContainer.innerHTML = '';
         var xhr = new XMLHttpRequest()
