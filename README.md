@@ -1,6 +1,6 @@
 # awayfrom.tech #
 
-
+![Image](https://github.com/vivek-i/awayfrom.tech/blob/master/homePage.png?raw=true)
 [awayfrom.tech](https://awayfrom.tech)
 
 ## About ##
